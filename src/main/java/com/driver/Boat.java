@@ -9,11 +9,11 @@ public class Boat implements WaterVehicle{
         this.capacity = capacity;
     }
 
-    public String getName(){
+  /*  public String getName(){
         return name;
-    }
+    }*/
 
-    public void setName(String name) {
+    /*public void setName(String name) {
         this.name = name;
     }
 
@@ -23,7 +23,7 @@ public class Boat implements WaterVehicle{
 
     public void setCapacity(int capacity) {
         this.capacity = capacity;
-    }
+    }*/
     @Override
     public String getVehicleName() {
         return this.name;
@@ -31,7 +31,6 @@ public class Boat implements WaterVehicle{
 
     @Override
     public int getVehicleCapacity() {
-
         return this.capacity;
     }
 }
