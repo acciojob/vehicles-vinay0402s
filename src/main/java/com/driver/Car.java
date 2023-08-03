@@ -19,6 +19,10 @@ public class Car extends Vehicle {
         return wheels;
     }
 
+    public int getSeats() {
+        return seats;
+    }
+
     public String getType() {
         return type;
     }
